@@ -5,7 +5,7 @@
     --clr-blue: #458ff6;
     --clr-black: #000;
     --clr-white: #fff;
-    --clr-gray: #7d7987;
+    --clr-gray: #fcfcfc;
     --clr-dark-blue: #233348;
     --clr-dark-purple: #1f1534;
     --font-family-mulish: 'Mulish', sans-serif;
@@ -256,7 +256,7 @@ button{
 /* grid one */
 .sc-grid-one{
     padding: 115.5px 0 114.5px 0;
-    background-color: var(--clr-blue);
+    background-color: var(--clr-gray);
 }
 .sc-grid-one .grid-content .title-box .title-separator{
     background-color: var(--clr-white);
