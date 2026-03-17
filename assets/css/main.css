@@ -157,6 +157,7 @@ button{
 }
 .element-one img{
     width: 60px;
+    margin-left: 60px;
 }
 
 /* banner */
@@ -166,13 +167,13 @@ button{
 }
 .banner-content{
     display: grid;
-    column-gap: 78px;
+    column-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
 .banner-left .content-wrapper{
-    max-width: 445px;
-    margin-left: auto;
+    /* max-width: 445px; */
+    margin-left: 80px;
 }
 .banner-left .content-wrapper p{
     max-width: 340px;
@@ -209,9 +210,9 @@ button{
     box-shadow: 10px 40px 50px 0px #e5e9f666;
     background-color: var(--clr-white);
     border-radius: 20px;
-    width: 350px;
-    min-height: 354px;
-    padding: 46px 38px;
+    width: 320px;
+    min-height: 320px;
+    padding: 42px 32px;
     margin: 18.5px;
     width: calc(33.3333% - 37px);
     transition: var(--transition-default);
@@ -246,6 +247,9 @@ button{
     margin-left: 0;
     margin-top: 26px;
 }
+.title-box-text{
+    margin-bottom: 24px;
+}
 .grid-content .text{
     line-height: 1.667;
 }
@@ -268,10 +272,11 @@ button{
 }
 .sc-grid-two .grid-content .grid-img{
     order: 2;
+    margin-right: 60px;
 }
-.sc-grid-two .grid-content .grid-text .content-wrapper{
-    max-width: 340px;
-}
+/* .sc-grid-two .grid-content .grid-text .content-wrapper{
+    max-width: 480px;
+} */
 .sc-grid-two .btn:hover img{
     filter: invert(100%) brightness(100);
 }
@@ -625,8 +630,9 @@ button{
         justify-content: center;
         margin-top: 40px;
         max-width: 480px;
-        margin-right: auto;
+        margin-right: 80px;
         margin-left: auto;
+        width: 60%;
     }
 
     /* services */
@@ -655,17 +661,17 @@ button{
         padding: 100px 0;
     }
 
-    .grid-content .content-wrapper{
+    /* .grid-content .content-wrapper{
         max-width: 600px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-    }
+    } */
     .grid-content{
         grid-template-columns: repeat(1, 1fr);
     }
     .grid-content .title-box .title-separator{
-        margin-left: auto;
+        margin-left: 50px;
     }
     .grid-content .grid-img{
         max-width: 480px;
@@ -674,14 +680,14 @@ button{
         margin-bottom: 40px;
     }
 
-    .sc-grid.sc-grid-two .grid-content .content-wrapper{
+    /* .sc-grid.sc-grid-two .grid-content .content-wrapper{
         max-width: 600px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-    }
+    } */
     .sc-grid-two .grid-content .grid-text{
-        width: 100%;
+        /* width: 100%; */
         margin-right: 0;
         margin-left: 0;
         margin-bottom: 60px;

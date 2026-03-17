@@ -3,14 +3,29 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>M-Health - About Us</title>
-    <meta name="description" content="Learn more about M-Health" />
+    <title>M-Health - Our Services</title>
+    <meta name="description" content="Healthcare services we provide" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- font awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -57,7 +72,7 @@
                     <a href="index.html" class="nav-link text-white text-nowrap">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a href="about.html" class="nav-link text-white nav-active text-nowrap">About Us</a>
+                    <a href="about.html" class="nav-link text-white text-nowrap">About Us</a>
                   </li>
                   <li class="nav-item">
                     <a href="apps.html" class="nav-link text-white text-nowrap">Apps</a>
@@ -66,7 +81,7 @@
                     <a href="testimonials.html" class="nav-link text-white text-nowrap">Testimonials</a>
                   </li>
                   <li class="nav-item">
-                    <a href="services.html" class="nav-link text-white text-nowrap">Services</a>
+                    <a href="services.html" class="nav-link text-white nav-active text-nowrap">Services</a>
                   </li>
                   <li class="nav-item">
                     <a href="articles.html" class="nav-link text-white text-nowrap">Articles</a>
@@ -82,32 +97,114 @@
 
         <div class="container">
           <div class="text-center" style="padding: 40px 0;">
-            <h1 class="text-white" style="font-size: 48px;">About Us</h1>
-            <p class="text-white" style="font-size: 18px; max-width: 600px; margin: 20px auto;">Learn more about our mission and values</p>
+            <h1 class="text-white" style="font-size: 48px;">Our Services</h1>
+            <p class="text-white" style="font-size: 18px; max-width: 600px; margin: 20px auto;">Comprehensive healthcare solutions tailored to your needs</p>
           </div>
         </div>
       </header>
       <!-- end of header -->
 
       <main>
-        <section class="sc-grid sc-grid-two" style="padding: 80px 0;">
+        <section class="sc-services" style="padding-top: 80px;">
+          <div class="services-shape">
+            <img src="assets/images/curve-shape-1.png" alt="" />
+          </div>
           <div class="container">
-            <div class="grid-content d-grid align-items-center">
-              <div class="grid-img">
-                <img src="assets/images/health-care-img.png" alt="" />
-              </div>
-              <div class="grid-text">
-                <div class="content-wrapper text-start">
-                  <div class="title-box">
-                    <h3 class="title-box-name">Our Story</h3>
-                    <div class="title-separator mx-auto"></div>
-                  </div>
-
-                  <p class="text-black title-box-text">
-                    Founded in 2020, M-Health has grown from a small startup to a leading healthcare provider. Our journey began with a simple idea: make quality healthcare accessible to everyone, anywhere, anytime.
+            <div class="services-content">
+              <div class="title-box text-center">
+                <div class="content-wrapper">
+                  <h3 class="title-box-name">What We Offer</h3>
+                  <div class="title-separator mx-auto"></div>
+                  <p class="text title-box-text">
+                    We provide you the best choices for you. Adjust it to your
+                    health needs and make sure you undergo treatment with our
+                    highly qualified doctors you can consult with us which type
+                    of service is suitable for your health
                   </p>
-                  <p class="text-black title-box-text" style="margin-top: 20px;">
-                    Today, we serve thousands of patients across multiple countries, providing virtual consultations, medicine delivery, and comprehensive healthcare solutions.
+                </div>
+              </div>
+
+              <div class="services-list">
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img
+                      src="assets/images/service-icon-1.png"
+                      alt="service icon"
+                    />
+                  </div>
+                  <h5 class="item-title fw-7">Search doctor</h5>
+                  <p class="text">
+                    Choose your doctor form thousands of specialist, general and
+                    trusted hospitals.
+                  </p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img
+                      src="assets/images/service-icon-2.png"
+                      alt="service icon"
+                    />
+                  </div>
+                  <h5 class="item-title fw-7">Online pharmacy</h5>
+                  <p class="text">
+                    Buy your medicines with our mobile application with a simple
+                    delivery system
+                  </p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img
+                      src="assets/images/service-icon-3.png"
+                      alt="service icon"
+                    />
+                  </div>
+                  <h5 class="item-title fw-7">Consultation</h5>
+                  <p class="text">
+                    Free consultation with our trusted doctors and get the best
+                    recommendations.
+                  </p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img
+                      src="assets/images/service-icon-4.png"
+                      alt="service icon"
+                    />
+                  </div>
+                  <h5 class="item-title fw-7">Details info</h5>
+                  <p class="text">
+                    Free consultation with our trusted doctors and get the best
+                    recommendations.
+                  </p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img
+                      src="assets/images/service-icon-5.png"
+                      alt="service icon"
+                    />
+                  </div>
+                  <h5 class="item-title fw-7">Emergency care</h5>
+                  <p class="text">
+                    You can get 24/7 urgent care for yourself or your children
+                    and your lovely family.
+                  </p>
+                </div>
+
+                <div class="services-item">
+                  <div class="item-icon">
+                    <img
+                      src="assets/images/service-icon-6.png"
+                      alt="service icon"
+                    />
+                  </div>
+                  <h5 class="item-title fw-7">Tracking</h5>
+                  <p class="text">
+                    Track and save your mental history and health data
                   </p>
                 </div>
               </div>
@@ -115,55 +212,25 @@
           </div>
         </section>
 
-        <section class="sc-grid-one" style="background-color: var(--clr-gray); padding: 80px 0;">
-          <div class="container">
-            <div class="title-box text-center">
-              <h3 class="title-box-name">Our Values</h3>
-              <div class="title-separator mx-auto"></div>
-            </div>
-            <div class="services-list">
-              <div class="services-item" style="text-align: center;">
-                <div class="item-icon">
-                  <i class="fas fa-heart" style="font-size: 48px; color: var(--clr-blue);"></i>
-                </div>
-                <h5 class="item-title fw-7">Compassion</h5>
-                <p class="text-black">We treat every patient with empathy and understanding.</p>
-              </div>
-              <div class="services-item" style="text-align: center;">
-                <div class="item-icon">
-                  <i class="fas fa-shield-alt" style="font-size: 48px; color: var(--clr-blue);"></i>
-                </div>
-                <h5 class="item-title fw-7">Integrity</h5>
-                <p class="text-black">We uphold the highest standards of medical ethics.</p>
-              </div>
-              <div class="services-item" style="text-align: center;">
-                <div class="item-icon">
-                  <i class="fas fa-rocket" style="font-size: 48px; color: var(--clr-blue);"></i>
-                </div>
-                <h5 class="item-title fw-7">Innovation</h5>
-                <p class="text-black">We continuously improve our services with technology.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="sc-grid-two" style="padding: 80px 0;">
+        <section class="sc-grid-two" style="padding: 40px 0 80px;">
           <div class="container">
             <div class="grid-content d-grid align-items-center">
-              <div class="grid-text">
-                <div class="content-wrapper text-start">
-                  <div class="title-box">
-                    <h3 class="title-box-name">Our Mission</h3>
-                    <div class="title-separator mx-auto"></div>
-                  </div>
-                  <p class="text-black title-box-text">
-                    To provide progressive, accessible, and affordable healthcare to everyone through innovative technology and compassionate service.
-                  </p>
-                  <a href="contact.html" class="btn btn-primary-outline">Join Us</a>
-                </div>
-              </div>
               <div class="grid-img">
                 <img src="assets/images/download-image.png" alt="" />
+              </div>
+              <div class="grid-text">
+                <div class="content-wrapper text-start">
+                  <div class="title-box">
+                    <h3 class="title-box-name">Need Emergency Care?</h3>
+                    <div class="title-separator mx-auto"></div>
+                  </div>
+                  <p class="text title-box-text">
+                    Our emergency services are available 24/7. Don't hesitate to reach out when you need us most.
+                  </p>
+                  <a href="contact.html" class="btn btn-primary-outline">
+                    Contact Now
+                  </a>
+                </div>
               </div>
             </div>
           </div>

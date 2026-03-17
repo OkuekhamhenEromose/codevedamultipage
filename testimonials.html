@@ -3,14 +3,29 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>M-Health - About Us</title>
-    <meta name="description" content="Learn more about M-Health" />
+    <title>M-Health - Testimonials</title>
+    <meta name="description" content="What our customers say" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- font awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -57,13 +72,13 @@
                     <a href="index.html" class="nav-link text-white text-nowrap">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a href="about.html" class="nav-link text-white nav-active text-nowrap">About Us</a>
+                    <a href="about.html" class="nav-link text-white text-nowrap">About Us</a>
                   </li>
                   <li class="nav-item">
                     <a href="apps.html" class="nav-link text-white text-nowrap">Apps</a>
                   </li>
                   <li class="nav-item">
-                    <a href="testimonials.html" class="nav-link text-white text-nowrap">Testimonials</a>
+                    <a href="testimonials.html" class="nav-link text-white nav-active text-nowrap">Testimonials</a>
                   </li>
                   <li class="nav-item">
                     <a href="services.html" class="nav-link text-white text-nowrap">Services</a>
@@ -82,89 +97,114 @@
 
         <div class="container">
           <div class="text-center" style="padding: 40px 0;">
-            <h1 class="text-white" style="font-size: 48px;">About Us</h1>
-            <p class="text-white" style="font-size: 18px; max-width: 600px; margin: 20px auto;">Learn more about our mission and values</p>
+            <h1 class="text-white" style="font-size: 48px;">Testimonials</h1>
+            <p class="text-white" style="font-size: 18px; max-width: 600px; margin: 20px auto;">What our customers say about us</p>
           </div>
         </div>
       </header>
       <!-- end of header -->
 
       <main>
-        <section class="sc-grid sc-grid-two" style="padding: 80px 0;">
+        <section class="sc-feedback" style="padding: 80px 0;">
           <div class="container">
-            <div class="grid-content d-grid align-items-center">
-              <div class="grid-img">
-                <img src="assets/images/health-care-img.png" alt="" />
+            <div class="feedback-content">
+              <div class="feedback-element">
+                <img src="assets/images/element-img-3.png" />
               </div>
-              <div class="grid-text">
-                <div class="content-wrapper text-start">
-                  <div class="title-box">
-                    <h3 class="title-box-name">Our Story</h3>
-                    <div class="title-separator mx-auto"></div>
-                  </div>
+              <div class="feedback-element-2">
+                <img src="assets/images/element-img-5.png" />
+              </div>
+              <div class="title-box text-center">
+                <div class="content-wrapper">
+                  <h3 class="title-box-name text-white">
+                    What our customers are saying
+                  </h3>
+                  <div class="title-separator mx-auto"></div>
+                </div>
+              </div>
 
-                  <p class="text-black title-box-text">
-                    Founded in 2020, M-Health has grown from a small startup to a leading healthcare provider. Our journey began with a simple idea: make quality healthcare accessible to everyone, anywhere, anytime.
-                  </p>
-                  <p class="text-black title-box-text" style="margin-top: 20px;">
-                    Today, we serve thousands of patients across multiple countries, providing virtual consultations, medicine delivery, and comprehensive healthcare solutions.
-                  </p>
+              <div class="feedback-list feedback-slider owl-carousel owl-theme">
+                <div class="feedback-item d-grid">
+                  <div class="item-left d-flex align-items-center">
+                    <div class="item-img">
+                      <img src="assets/images/doctortestimonial.jpg" alt="" />
+                    </div>
+                    <div class="item-info text-white">
+                      <p class="fw-7 name">Edward Newgate</p>
+                      <span class="designation fw-4">Founder Circle</span>
+                    </div>
+                  </div>
+                  <div class="item-right">
+                    <p class="text text-white">
+                      "Our dedicated patient engagement app and web portal allow
+                      you to access information instantaneously (no tedious
+                      form, long calls, or administrative hassle) and securely"
+                    </p>
+                  </div>
+                </div>
+
+                <div class="feedback-item d-grid">
+                  <div class="item-left d-flex align-items-center">
+                    <div class="item-img">
+                      <img src="assets/images/professionalwomantestimonial.jpg" alt="" />
+                    </div>
+                    <div class="item-info text-white">
+                      <p class="fw-7 name">Sarah Johnson</p>
+                      <span class="designation fw-4">Patient</span>
+                    </div>
+                  </div>
+                  <div class="item-right">
+                    <p class="text text-white">
+                      "The virtual consultations have been a game-changer for my family. We can now see doctors without leaving home. Highly recommended!"
+                    </p>
+                  </div>
+                </div>
+
+                <div class="feedback-item d-grid">
+                  <div class="item-left d-flex align-items-center">
+                    <div class="item-img">
+                      <img src="assets/images/suitmantestimonial.jpg" alt="" />
+                    </div>
+                    <div class="item-info text-white">
+                      <p class="fw-7 name">Michael Donald</p>
+                      <span class="designation fw-4">Regular User</span>
+                    </div>
+                  </div>
+                  <div class="item-right">
+                    <p class="text text-white">
+                      "The medicine delivery service is incredibly convenient. I get my prescriptions delivered within hours. Great service!"
+                    </p>
+                  </div>
+                </div>
+
+                <div class="feedback-item d-grid">
+                  <div class="item-left d-flex align-items-center">
+                    <div class="item-img">
+                      <img src="assets/images/person-image.png" alt="" />
+                    </div>
+                    <div class="item-info text-white">
+                      <p class="fw-7 name">Emily Rodriguez</p>
+                      <span class="designation fw-4">Healthcare Professional</span>
+                    </div>
+                  </div>
+                  <div class="item-right">
+                    <p class="text text-white">
+                      "As a doctor, I appreciate how easy it is to connect with patients through this platform. The interface is intuitive and secure."
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="sc-grid-one" style="background-color: var(--clr-gray); padding: 80px 0;">
+        <section class="sc-grid-two" style="padding: 40px 0 80px;">
           <div class="container">
-            <div class="title-box text-center">
-              <h3 class="title-box-name">Our Values</h3>
-              <div class="title-separator mx-auto"></div>
-            </div>
-            <div class="services-list">
-              <div class="services-item" style="text-align: center;">
-                <div class="item-icon">
-                  <i class="fas fa-heart" style="font-size: 48px; color: var(--clr-blue);"></i>
-                </div>
-                <h5 class="item-title fw-7">Compassion</h5>
-                <p class="text-black">We treat every patient with empathy and understanding.</p>
-              </div>
-              <div class="services-item" style="text-align: center;">
-                <div class="item-icon">
-                  <i class="fas fa-shield-alt" style="font-size: 48px; color: var(--clr-blue);"></i>
-                </div>
-                <h5 class="item-title fw-7">Integrity</h5>
-                <p class="text-black">We uphold the highest standards of medical ethics.</p>
-              </div>
-              <div class="services-item" style="text-align: center;">
-                <div class="item-icon">
-                  <i class="fas fa-rocket" style="font-size: 48px; color: var(--clr-blue);"></i>
-                </div>
-                <h5 class="item-title fw-7">Innovation</h5>
-                <p class="text-black">We continuously improve our services with technology.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="sc-grid-two" style="padding: 80px 0;">
-          <div class="container">
-            <div class="grid-content d-grid align-items-center">
-              <div class="grid-text">
-                <div class="content-wrapper text-start">
-                  <div class="title-box">
-                    <h3 class="title-box-name">Our Mission</h3>
-                    <div class="title-separator mx-auto"></div>
-                  </div>
-                  <p class="text-black title-box-text">
-                    To provide progressive, accessible, and affordable healthcare to everyone through innovative technology and compassionate service.
-                  </p>
-                  <a href="contact.html" class="btn btn-primary-outline">Join Us</a>
-                </div>
-              </div>
-              <div class="grid-img">
-                <img src="assets/images/download-image.png" alt="" />
-              </div>
+            <div class="text-center">
+              <h3 class="title-box-name">Share Your Experience</h3>
+              <div class="title-separator mx-auto" style="margin-bottom: 30px;"></div>
+              <p class="text" style="max-width: 600px; margin: 0 auto 30px;">We'd love to hear about your experience with M-Health. Your feedback helps us improve and serve you better.</p>
+              <a href="contact.html" class="btn btn-primary-outline">Write a Review</a>
             </div>
           </div>
         </section>
@@ -234,6 +274,13 @@
       src="https://code.jquery.com/jquery-3.6.4.js"
       integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
       crossorigin="anonymous"
+    ></script>
+    <!-- owl carousel -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     ></script>
     <!-- custom js -->
     <script src="assets/js/script.js"></script>

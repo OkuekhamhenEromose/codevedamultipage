@@ -5,6 +5,9 @@
     padding-left: 16px;
     max-width: calc(1273px - 32px);
 }
+.loading-section{
+    margin-right: 140px;
+}
 
 /* text stylings and colors */
 .text{
@@ -98,7 +101,24 @@
     color: var(--clr-white);
     transition: var(--transition-default);
 }
-
+.btn-second{
+    min-width: 200px;
+    height: 56px;
+    border-radius: 54px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--clr-white);
+    background-color: var(--clr-blue);
+    transition: var(--transition-default);
+}
+.btn-second:hover{
+    color: var(--clr-white);
+    background-color: #1472f4;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
 .btn:hover{
     color: var(--clr-white);
     background-color: #1472f4;
